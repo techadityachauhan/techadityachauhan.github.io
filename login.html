@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+        *{
+            margin: 0;
+        }
+        .a{
+            background-color: rgb(0, 234, 255);
+            width: 40%;
+            height: 550px;
+            margin: auto;
+        }
+        img{
+            display: block;
+            margin:auto;
+            width: 30%;
+            height: 150px;
+            margin-bottom: 10px;
+        }
+        input[id=d]{
+            display: block; 
+            width: 70%;
+            height: 40px;
+            margin: auto;
+            color: rgb(227, 47, 6);
+            margin-bottom: 20px;
+            font-size: 15px;
+            
+        }
+        input[id=e]{
+            display: block;
+            width: 25%;
+            height: 40px;
+            margin: auto;
+            background-color: rgb(212, 205, 116);
+            margin-top: 30px;
+            font-family: Rubik Mono One;
+            color: rgb(237, 47, 22);
+            font-size: 20px;
+            
+        }
+        a{
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+        }
+        h1{
+            color: rgb(132, 0, 103);
+        }
+        span[id=a1]{color: rgb(255, 255, 255); font-size: 30px}
+        span[id=a2]{color: rgb(255, 0, 221); font-size: 30px}
+        span[id=a3]{color: rgb(0, 0, 0); font-size: 30px}
+        
+        
+        
+
+    </style>
+</head>
+<body>
+    <div class="a" >
+        <img src="images/male_avatar.svg" alt="logo">
+        <h1 align="center"><span id="a1"></span><span id="a2">&nbsp;Gmail</span><span id="a3">&nbsp;&nbsp;</span></h1>
+        <h1 align="center">Login</h1>
+        <form align="center" method="post">
+            <input id="d" type="email" name="umail" placeholder="Enter your Email" required>
+            <input id="d" type="password" name="upass" placeholder="Enter your password" required>
+            <input id="e" type="submit" value="Log In">
+            <br>
+            <hr>
+            <a href="register.html">Register here</a>
+            <a href="index.html">Go to Gmail</a>
+
+        </form>
+    </div>
+</body>
+</html>

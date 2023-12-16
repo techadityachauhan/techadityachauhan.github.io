@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .aa{
+            width: 50%;
+            height: 730px;
+            background-color: rgb(90, 116, 143);
+            margin: auto;
+        }
+        img{
+            margin-top: 30px;
+            width: 14%;
+        }
+        h1{
+            color: bisque;
+        }
+        input[id=b]{
+            width: 40%;
+            height: 30px;
+            background-color: rgb(216, 192, 209);
+            color: rgb(7, 103, 71);
+        }
+        input[id=c]{
+            width: 65%;
+            height: 30px;
+            background-color: rgb(216, 192, 209);
+            color: rgb(8, 74, 52);
+        }
+        input[id=d]{
+            width: 65%;
+            height: 30px;
+            background-color: rgb(216, 192, 209);
+            color: rgb(12, 87, 62);
+            
+        }
+        p{
+            color: rgb(114, 7, 7);
+            font-size: 21px;
+            font-family:'Times New Roman', Times, serif;
+        }
+        input[id=e]{
+            width: 45%;
+            height: 30px;
+            background-color: rgb(216, 192, 209);
+            color: rgb(2, 33, 22);
+            font-size: 15px;   
+        }
+        h3{
+            color: bisque;
+            font-size: 24px;
+        }
+        input[name=ureg]{
+            width: 35%;
+            height: 40px;
+            font-size: 24px;
+            color: rgb(120, 48, 175);
+            background-color: rgb(225, 186, 147);
+        }
+        a{
+            color: rgb(255, 255, 255);
+        }
+        
+        h1[id=head]{
+            color: blue;
+        }
+        span[id=a1]{color: rgb(255, 255, 255); font-size: 40px}
+        span[id=a2]{color: rgb(255, 0, 221); font-size: 40px}
+        span[id=a3]{color: rgb(0, 0, 0); font-size: 40px}
+    </style>
+</head>
+<body>
+    <div class="aa">
+        <form post="method" align="center">
+            <img src="images/SignUp.svg" alt="Sign Up pic" width="100px" height="100px">
+            <h1 align="center"><span id="a1">3A</span><span id="a2">&nbsp;&nbsp;Financial </span><span id="a3">&nbsp;&nbsp;Solutions</span></h1>
+            <h1>Register Here</h1>
+            <p>
+                <input id="b" type="text" name="fname" placeholder="Enter First Name" required>
+                <input id="b" type="text" name="lname" placeholder="Enter Last Name">
+            </p>
+
+            <p><input id="c" type="email" name="umail" placeholder="Enter your Email" required></p>
+            <p><input id="d" type="password" name="upass" placeholder="Choose your Password" required></p>
+            <p>Date of Birth &nbsp;&nbsp;<input id="e" type="date" name="dob" required></p>
+            <p> <h3>Gender</h3>
+                <input id="f" type="radio" name="Gen" value="Male">Male
+                <input type="radio" name="Gen" value="Female">Female
+                <input type="radio" name="Gen" value="Other">Other
+            </p>
+            
+            <p><input type="submit" name="ureg"  value="Register"></p><hr>
+            <p> Already a Member?<a href="login.html">Login</a></p>
+            <a href="https://3afinsol.in/">3AFinSol</a>
+        </form>
+
+    </div>
+    
+</body>
+</html>
